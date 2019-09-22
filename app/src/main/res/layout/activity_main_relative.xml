@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_message"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/button"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="true"/>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonText"
+        android:layout_below="@id/textView"
+
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageButton
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        android:layout_below="@id/button"/>
+    <Switch
+        android:id="@+id/swi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switches"
+        android:layout_toRightOf="@id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/checkbox"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/image"/>
+
+</RelativeLayout>

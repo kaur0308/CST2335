@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Labs</string>
+    <string name="hello_message">kripya dekhiye</string>
+    <string name="ButtonText">iski janch krein</string>
+    <string name="button">yahan dbaiye</string>
+    <string name="switches">chalu kriye/band kriye</string>
+    <string name="text">yahan likho</string>
+</resources>

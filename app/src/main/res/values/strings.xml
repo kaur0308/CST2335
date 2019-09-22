@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Labs</string>
+    <string name="hello_message">Look at my GUI</string>
+    <string name="ButtonText">Check this out!</string>
+    <string name="button">CLICK HERE</string>
+    <string name="switches">Switch on/off</string>
+    <string name="text">Type here</string>
+</resources>
